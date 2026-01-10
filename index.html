@@ -1,0 +1,61 @@
+---
+layout: default
+title: Accueil
+---
+
+<style>
+  .profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    gap: 20px;
+  }
+  .bio-text {
+    flex: 2;
+  }
+  .avatar-container {
+    flex: 1;
+    text-align: left;
+  }
+  .avatar-container img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%; /* Rond comme un ballon */
+    border: 4px solid #e67e22; /* Couleur orange basket */
+    object-fit: cover;
+  }
+  .btn-project {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e67e22;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+</style>
+
+<div class="profile-section">
+  <div class="bio-text">
+    <h1>Bienvenue sur mon Portfolio !</h1>
+    <p class="lead">Développeur web en devenir et fan de basket en parralèle.</p>
+    <p>
+      Sur le terrain comme derrière un clavier, je cherche toujours la meilleure stratégie pour marquer des points. 
+      Ce portfolio présente mon parcours technique et mes réalisations.
+    </p>
+    <a href="/projects/klivio" class="btn-project">Découvrir Klivio 🚀</a>
+  </div>
+
+  <div class="avatar-container">
+    <img src="{{ '/assets/images/avatar.jpg' | relative_url }}" alt="Mon Avatar">
+  </div>
+</div>
+
+<hr>
+
+<h3>Mes fondamentaux</h3>
+<ul>
+  <li><strong>Le Code :</strong> Construire des solutions solides et propres.</li>
+  <li><strong>Le Basket :</strong> L'esprit d'équipe et la persévérance.</li>
+</ul>

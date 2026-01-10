@@ -1,0 +1,81 @@
+/* --- Mise en page globale --- */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 900px;
+    background: white;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* --- LE STYLE DES ONGLETS --- */
+.site-header {
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 30px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: -2px; /* Pour coller à la bordure */
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #555;
+    padding: 12px 25px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 10px 10px 0 0;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    color: #e67e22; /* Orange basket */
+    background: #fff5eb;
+}
+
+/* L'onglet actif */
+.nav-item.active {
+    color: #e67e22;
+    border: 2px solid #eee;
+    border-bottom: 2px solid white; /* Cache la ligne du bas */
+    background: white;
+}
+
+/* --- L'AVATAR ET LE CONTENU --- */
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #e67e22;
+    object-fit: cover;
+}
+
+.btn-project {
+    display: inline-block;
+    background: #e67e22;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
