@@ -1,13 +1,10 @@
-# Informations du site
 title: "Portfolio de Mathias GRADEK"
 email: "mathias.gradek@epitech.eu"
 description: "Futur développeur, passionné par le code et le basket"
 
-# Paramètres de construction
-baseurl: "" # Important : laisse vide pour le moment
+baseurl: ""
 url: "" 
 
-# Configuration des Projets (Pour que ton dossier _projects fonctionne)
 collections:
   projects:
     output: true

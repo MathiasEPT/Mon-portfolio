@@ -1,7 +1,6 @@
-/* --- Mise en page globale --- */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f2f5;
+    background-color: #4781da;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -10,15 +9,15 @@ body {
 .wrapper {
     width: 90%;
     max-width: 900px;
-    background: white;
+  
+  background: rgb(108, 130, 190);
     margin-top: 50px;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-/* --- LE STYLE DES ONGLETS --- */
-.site-header {
+header {
     text-align: center;
     border-bottom: 2px solid #eee;
     margin-bottom: 30px;
@@ -28,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-bottom: -2px; /* Pour coller à la bordure */
+    margin-bottom: -2px;
 }
 
 .nav-item {
@@ -42,19 +41,17 @@ body {
 }
 
 .nav-item:hover {
-    color: #e67e22; /* Orange basket */
+    color: #e67e22;
     background: #fff5eb;
 }
 
-/* L'onglet actif */
 .nav-item.active {
     color: #e67e22;
     border: 2px solid #eee;
-    border-bottom: 2px solid white; /* Cache la ligne du bas */
+    border-bottom: 2px solid white;
     background: white;
 }
 
-/* --- L'AVATAR ET LE CONTENU --- */
 .profile-section {
     display: flex;
     justify-content: space-between;
