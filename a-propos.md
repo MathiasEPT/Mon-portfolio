@@ -15,7 +15,7 @@ Mon approche : **Acharnement et logique**.
 
 * **Formation :** Epitech Web Académie Paris Kremlin-Bicêtre
 * **Passions :** Grand fan de basketball et de NBA, coder a pris une grosse place dans mes passions.
-* **Objectif :** Devenir un développeur versatile capable de subvenir aux besoins de beaucoup de demandeurs, capable de construire des projets d'envergure, qui tiennent la route.
+* **Objectif :** Devenir un développeur versatile capable de subvenir aux besoins de beaucoup de demandeurs, en France ou à l'International ayant un niveau d'anglais B2 et C2 en Espagnol et capable de construire des projets d'envergure, qui tiennent la route.
 
 ---
 
