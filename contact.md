@@ -5,12 +5,12 @@ title: Contact
 
 # On reste en contact ?
 
-Si tu as un projet, une question ou si tu veux juste parler de basket et de code, n'hésite pas à m'envoyer un message !
+Si vous voulez me contactez, n'hésitez pas à le faire sur mon email epitech.
 
 ### Mes réseaux professionnels
 * **Email :** [mathias.gradek@epitech.eu](mailto:ton.email@exemple.com)
-* **GitHub :** [](https://github.com/ton-pseudo)
-* **LinkedIn :** [Mon profil LinkedIn](https://linkedin.com/in/ton-pseudo)
+* **GitHub :** [MathiasEPT](https://github.com/MathiasEPT)
+* **LinkedIn :** [Mathias Gradek](https://linkedin.com/in/ton-pseudo)
 
 ---
 
@@ -26,6 +26,6 @@ Si tu as un projet, une question ou si tu veux juste parler de basket et de code
   <textarea id="message" name="message" rows="5" placeholder="Ton message ici..." required style="padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
 
   <button type="submit" style="background: #e67e22; color: white; border: none; padding: 10px; border-radius: 4px; cursor: pointer; font-weight: bold;">
-    Envoyer l'échauffement 🏀
+    Envoyer
   </button>
 </form>
